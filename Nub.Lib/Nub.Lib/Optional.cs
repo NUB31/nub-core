@@ -29,5 +29,4 @@ public readonly struct Optional<TValue>
     public bool HasValue { get; }
 
     public static implicit operator Optional<TValue>(TValue value) => new(value);
-    public static implicit operator bool(Optional<TValue> value) => value.HasValue;
 }
