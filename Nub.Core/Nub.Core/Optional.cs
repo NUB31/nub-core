@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace Nub.Lib;
+namespace Nub.Core;
 
 public readonly struct Optional<TValue>
 {

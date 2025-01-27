@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nub.Lib", "Nub.Lib\Nub.Lib.csproj", "{386B46FA-9692-4883-8B03-08D0449E6E4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nub.Core", "Nub.Core\Nub.Core.csproj", "{386B46FA-9692-4883-8B03-08D0449E6E4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
