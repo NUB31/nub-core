@@ -2,6 +2,22 @@
 
 namespace Nub.Core;
 
+public readonly struct Optional
+{
+    public static Optional<TValue> Empty<TValue>() => new();
+
+    /// <summary>
+    /// Alias for creating an Optional&lt;TValue&gt; which allows for implicit types
+    /// </summary>
+    /// <param name="value"></param>
+    /// <typeparam name="TValue"></typeparam>
+    /// <returns></returns>
+    public static Optional<TValue> OfNullable<TValue>(TValue? value)
+    {
+        return value ?? Optional<TValue>.Empty();
+    }
+}
+
 public readonly struct Optional<TValue>
 {
     public static Optional<TValue> Empty() => new();
